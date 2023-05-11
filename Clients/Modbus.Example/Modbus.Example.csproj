@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FluentModbus" Version="5.0.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="FluentModbus" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Microsoft.Extensions.Logging" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="System.IO.Ports" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="ModbusDemo.Client.Tools.ExtensionTool" Static="true" />
+	</ItemGroup>
+
+</Project>
