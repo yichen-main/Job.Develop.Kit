@@ -21,10 +21,11 @@
 
 	<ItemGroup>
 		<Using Include="System.IO.Ports" />
+		<Using Include="System.Text" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<Using Include="ModbusDemo.Client.Tools.ExtensionTool" Static="true" />
+		<Using Include="Modbus.Example.Tools" />
 	</ItemGroup>
 
 </Project>
