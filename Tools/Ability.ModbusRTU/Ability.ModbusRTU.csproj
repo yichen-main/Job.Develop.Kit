@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="log4net" Version="2.0.15" />
+		<PackageReference Include="System.IO.Ports" Version="7.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="log4net" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="System.Collections" />
+		<Using Include="System.Collections.ObjectModel" />
+		<Using Include="System.Diagnostics" />
+		<Using Include="System.Diagnostics.CodeAnalysis" />
+		<Using Include="System.Globalization" />
+		<Using Include="System.IO.Ports" />
+		<Using Include="System.Net" />
+		<Using Include="System.Net.Sockets" />
+		<Using Include="System.Runtime.Serialization" />
+		<Using Include="System.Security.Permissions" />
+		<Using Include="System.Text" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Ability.ModbusRTU.Boundaries" />
+		<Using Include="Ability.ModbusRTU.Datas" />
+		<Using Include="Ability.ModbusRTU.Develops" />
+		<Using Include="Ability.ModbusRTU.Devices" />
+		<Using Include="Ability.ModbusRTU.Messages" />
+		<Using Include="Ability.ModbusRTU.Utilities" />
+	</ItemGroup>
+
+</Project>

@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Task.Cancel", "Demo.Ta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.PowerShell.Example", "Demo.PowerShell.Example\Demo.PowerShell.Example.csproj", "{2F5CEE41-7E77-4BFA-B5F0-5173D890143D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Calculate.Statistics", "Demo.Calculate.Statistics\Demo.Calculate.Statistics.csproj", "{079F2683-3D8E-4751-B6FA-5F37CA21344A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Calculate.Statistics", "Demo.Calculate.Statistics\Demo.Calculate.Statistics.csproj", "{079F2683-3D8E-4751-B6FA-5F37CA21344A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ability.ModbusRTU", "Tools\Ability.ModbusRTU\Ability.ModbusRTU.csproj", "{F84030B6-3758-418A-B4FD-D4ED57E0EC97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{079F2683-3D8E-4751-B6FA-5F37CA21344A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{079F2683-3D8E-4751-B6FA-5F37CA21344A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{079F2683-3D8E-4751-B6FA-5F37CA21344A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F84030B6-3758-418A-B4FD-D4ED57E0EC97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F84030B6-3758-418A-B4FD-D4ED57E0EC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F84030B6-3758-418A-B4FD-D4ED57E0EC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F84030B6-3758-418A-B4FD-D4ED57E0EC97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
